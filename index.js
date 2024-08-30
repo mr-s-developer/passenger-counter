@@ -1,13 +1,3 @@
-
-// let welcomeEl = document.getElementById("welcome-el")
-// let username = "Sergey "
-// let greeting = "Welcome back "
-
-// welcomeEl.innerText = greeting + username
-// welcomeEl.innerText += " 👋"
-
-// ---
-
 let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
 let count = 0
