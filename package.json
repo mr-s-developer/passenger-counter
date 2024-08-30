@@ -1,24 +1,13 @@
 {
-  "name": "passenger-counter",
-  "version": "1.0.0",
-  "description": "Quick start:",
-  "main": "index.js",
+  "name": "project",
+  "dependencies": {},
   "devDependencies": {
-    "webpack": "4.43.0",
-    "webpack-dev-server": "3.11.0"
+    "vite": "latest"
   },
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mr-s-developer/passenger-counter.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mr-s-developer/passenger-counter/issues"
-  },
-  "homepage": "https://github.com/mr-s-developer/passenger-counter#readme"
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
 }
